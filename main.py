@@ -27,7 +27,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "POWRED-BY DARK MODS 🚀"
+    return "POWRED-BY Junaid Niz"
 
 def run_flask():
     port = int(os.environ.get("PORT", 8080))
@@ -41,11 +41,11 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = '8529763500:AAHOHRb00seWUYPp5gNta3tAHm8uqs6JyuQ'
-OWNER_ID = 8310349884
-ADMIN_ID = 8310349884
-YOUR_USERNAME = 'DARK4MODS'
-UPDATE_CHANNEL = 'DARK0MODS'
+TOKEN = '8579448410:AAH4mvo_DthTK26CKMJ8CxfyMQyJ7wX2ME4'
+OWNER_ID = 7011937754
+ADMIN_ID = 7011937754
+YOUR_USERNAME = 'Junaidniz'
+UPDATE_CHANNEL = 'Junaidniz'
 
 # Folder setup
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
